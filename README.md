@@ -34,6 +34,6 @@ Once the best model is selected, the code runs 6 diagnostic tests:
 
 ## Output
 
-The pipeline produces a 3-page PDF report - I've attached one with mock data to GitHub. 
+The pipeline produces a 3-page PDF report - I've attached one with mock data to GitHub as an example :)
 
 It has a regression plot with the fitted curve overlaid on the data, a diagnostic scorecard with pass/fail results for each test, a ranked model comparison table, and 4 diagnostic plots (residuals vs. fitted, Q-Q plot, Cook's distance, residual distribution).
