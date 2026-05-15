@@ -2,7 +2,7 @@
 
 ## How It Works
 
-The tool fits multiple regression model families to your data (polynomial degrees 1 through 4, natural cubic spline, logarithmic, reciprocal, power law, and exponential), then ranks them by BIC (Bayesian Information Criterion) to identify the best-fitting specification that isn't just overfitting.
+The tool fits multiple regression model families to your data (polynomial degrees 1 through 4, natural cubic spline, logarithmic, reciprocal, power law, and exponential), then ranks them by BIC (Bayesian Information Criterion) to identify the best-fitting OLS, but not overfitting. This is a problem I kept falling into as I got sick of doing this over & over again.
 
 Just hook up your .csv, and you're ready to cook!
 
