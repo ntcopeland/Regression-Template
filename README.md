@@ -1,10 +1,10 @@
-# Regression-Template
+# OLS Regressions
 
 ## How It Works
 
-The tool fits multiple regression model families to your data (polynomial degrees 1 through 4, natural cubic spline, logarithmic, reciprocal, power law, and exponential), then ranks them by BIC (Bayesian Information Criterion) to identify the best-fitting OLS, but not overfitting. This is a problem I kept falling into as I got sick of doing this over & over again.
+The tool fits multiple regression model families to your data (polynomial degrees 1 through 4, natural cubic spline, log, reciprocal, power law, and exponential), then ranks them by BIC (Bayesian Info. Criterion) to identify the best-fitting OLS while punishing overfitting. Overfitting is a problem I kept falling into and I got sick of doing this over & over again. So, this tool exists!
 
-Just hook up your .csv, and you're ready to cook!
+Just hook up your .csv, and you're ready to cook.
 
 ## Model Selection
 
